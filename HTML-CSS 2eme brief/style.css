@@ -1,0 +1,63 @@
+
+
+.secondul {
+ padding-left: 11px;
+  }
+
+.logo {
+  padding: 30px;
+      }
+ul  {
+  list-style-type: none;
+  display: flex;
+    }
+
+h1 {
+
+padding: 35px;
+}
+
+a   {
+  text-decoration: none;
+  color: black;
+    }  
+
+li  {
+margin-left: 25px;
+margin: 10px 20px;
+    }
+
+.div1 {
+  display: flex;
+  align-items: center;
+      }
+
+img   {
+  width: 200px;
+      }
+.divkid {
+  border: 2px solid black;
+  padding: 20px;
+  margin: 10px;
+  
+        }
+.divpere {
+    display: flex;
+    padding: 35px;
+         }
+.rrp {
+color: black;
+opacity: 0.6;
+     }
+.Saving {
+color: green;
+opacity: 0.8;
+
+        }
+.price  {
+text-decoration: underline;
+        }
+ p{
+margin-left: 35px;
+
+ }       
