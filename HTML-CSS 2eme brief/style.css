@@ -14,7 +14,8 @@ ul  {
 
 h1 {
 
-padding: 35px;
+padding: 28px;
+margin-top: -30px;
 }
 
 a   {
@@ -43,7 +44,7 @@ img   {
         }
 .divpere {
     display: flex;
-    padding: 35px;
+    padding: 20px;
          }
 .rrp {
 color: black;
@@ -52,12 +53,14 @@ opacity: 0.6;
 .Saving {
 color: green;
 opacity: 0.8;
-
         }
 .price  {
 text-decoration: underline;
         }
- p{
-margin-left: 35px;
-
- }       
+ p      {
+  margin-left: 0px;
+        }      
+.paragraphe {
+    padding-left: 29px;
+    margin-top: -15px;
+}
