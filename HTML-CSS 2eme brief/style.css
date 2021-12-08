@@ -1,5 +1,4 @@
 
-
 .secondul {
  padding-left: 11px;
   }
@@ -63,4 +62,10 @@ text-decoration: underline;
 .paragraphe {
     padding-left: 29px;
     margin-top: -15px;
+}
+@media( max-width : 600px){
+  .divpere {
+  flex-direction: column;
+
+         }
 }
