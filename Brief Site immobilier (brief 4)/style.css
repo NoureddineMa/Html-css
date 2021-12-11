@@ -1,0 +1,66 @@
+*{
+    background-color: #D49361;
+}
+.logo {
+width: 100%;
+text-align: center;
+}
+.logo img {
+    width: 30%;
+}
+#all {
+    justify-content: center;
+}
+.h-one {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+.preferene {
+    margin-left: 60px;
+    padding-top: 31px;
+
+}
+.choice-select {
+    background-color: white;
+    text-align: center;
+    padding: 7px;
+    
+}
+input {
+    background-color: white;
+    border-style: none;
+}
+#cheese {
+    display: flex;
+    justify-content: center;
+}
+.min {
+    width: 52px;
+    height: 43px;
+}
+.divchild{
+    text-align: center
+    
+}
+.divchild-unique {
+    text-align: center;
+}
+.preferene {
+    margin-left: 60px;
+    padding-top: 31px;
+
+}
+button {
+    width: 187px;
+    height: 39px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+div.preferene {
+    text-align: center;
+}
+.divchild-range {
+    border: white 1px solid;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Noureddine maher">
+    <meta name="keywords" content="Immobilier ,maison a vendre, agence immobilier,location,maison,achat,vente;appartement">
+    <link rel="shortcut icon" href="media/logotitle.jpg" />
+    <link rel="stylesheet" href="style.css">
+    <title>Maher Immobilier</title>
+</head>
+<body>
+
+    <div class="logo">
+        <img src="./media/logo.png" alt="le logo">
+    </div>
+    <section id="all">
+        <div class="divchild">
+            <h1 class="h-one">Type de propriéte</h1>
+            <select name="choix" class="choice-select">
+                <option value="choisir" value="le choix">Veuillez choisir un choix</option>
+                <option value="choix1">Résidentiel </option>
+                <option value="choix2">commerciale</option>
+                <option value="choix3">terrain</option>
+            </select>
+        </div>
+        <div class="divchild">
+            <h1 class="h-one">Nombre de chambres</h1>
+            <input  class="choice-select" type="nombre des chambres" placeholder="Veuillez entrer le nombres des chambres"
+                name="Nom" /></label>
+        </div>
+        <div class="divchild-unique">
+            <h1 class="h-one">Prix</h1>
+            <input class="min" type="Minimum" placeholder="Min" /></label>
+            <input class="max" type="Maximum" placeholder="Max" /></label>
+        </div>
+        <div class="divchild-range">
+            <h1 class="h-one">Le rayon de recherche</h1>
+            <input id="rayonR" type="range">
+        </div > 
+        <div class="preference">
+            <input type="checkbox" name="cheese" >
+            <label> Affichez les propriétes vendus Dans <br>cette recherche .</label>
+        </div>
+        <div>
+            <button>Search</button>
+        </div>
+    </section>
+</body>
+
+</html>
