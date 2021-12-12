@@ -1,56 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Noureddine maher">
-    <meta name="keywords" content="Immobilier ,maison a vendre, agence immobilier,location,maison,achat,vente;appartement">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Noureddine maher" />
+    <meta
+      name="keywords"
+      content="Immobilier ,maison a vendre, agence immobilier,location,maison,achat,vente;appartement"
+    />
     <link rel="shortcut icon" href="media/logotitle.jpg" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Maher Immobilier</title>
-</head>
+  </head>
 
-<body>
-    <section id="all">
-        <div class="logo">
-            <img src="./media/logo.png" alt="le logo">
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./media/logo.png" alt="le logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home </a></li>
+          <li><a href="#">Promotions </a></li>
+          <li><a href="#">About </a></li>
+          <li><a href="#">Contact us </a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <section id="section1">
+        <div>
+          <h1 class="landing-one">MODERN</h1>
+          <h1 class="landing-two">ELEGANT</h1>
+          <h1 class="landing-one">HOME FOR SALE</h1>
+          <p class="paragraphe-landing">
+            Le Lorem Ipsum est simplement du faux texte employé dans la <br />
+            composition et la mise en page avant impression. Le Lorem Ipsum est
+            <br />
+            le faux texte standard de l'imprimerie depuis les années 1500, quand
+            <br />
+            un imprimeur anonyme
+          </p>
+        </div>
+      </section>
+      <section id="section2">
+        <div class="divchild">
+          <h1 class="h-one">Type de propriéte</h1>
+          <select name="choix" class="choice-select">
+            <option value="choisir" value="le choix">
+              Veuillez choisir un choix
+            </option>
+            <option value="choix1">Résidentiel</option>
+            <option value="choix2">commerciale</option>
+            <option value="choix3">terrain</option>
+          </select>
         </div>
         <div class="divchild">
-            <h1 class="h-one">Type de propriéte</h1>
-            <select name="choix" class="choice-select">
-                <option value="choisir" value="le choix">Veuillez choisir un choix</option>
-                <option value="choix1">Résidentiel </option>
-                <option value="choix2">commerciale</option>
-                <option value="choix3">terrain</option>
-            </select>
-        </div>
-        <div class="divchild">
-            <h1 class="h-one">Nombre de chambres</h1>
-            <input class="choice-select" type="nombre des chambres"
-                placeholder="Veuillez entrer le nombres des chambres" name="Nom" /></label>
+          <h1 class="h-one">Nombre de chambres</h1>
+          <input
+            class="choice-select"
+            type="nombre des chambres"
+            placeholder="Veuillez entrer le nombres des chambres"
+            name="Nom"
+          />
         </div>
         <div class="divchild-unique">
-            <h1 class="h-one">Prix</h1>
-            <input class="min" type="Minimum" placeholder="Min" /></label>
-            <input class="max" type="Maximum" placeholder="Max" /></label>
+          <h1 class="h-one">Prix</h1>
+          <input class="min" type="Minimum" placeholder="Min" />
+          <input class="max" type="Maximum" placeholder="Max" />
         </div>
         <div class="divchild-range">
-            <h1 class="h-one">Le rayon de recherche</h1>
-            </div>
-            <div class="border">
-            <input type="range" id="volume">
-            </div>
+          <h1 class="h-one">Le rayon de recherche</h1>
         </div>
+        <div class="border">
+          <input type="range" id="volume" />
+        </div>
+
         <div class="preference">
-            <input type="checkbox" name="cheese">
-            <label> Affichez les propriétes vendus Dans <br>cette recherche .</label>
+          <input type="checkbox" name="cheese" />
+          <label>
+            Affichez les propriétes vendus Dans <br />cette recherche .</label
+          >
         </div>
         <div>
-            <button>Rechercher</button>
+          <button>Rechercher</button>
         </div>
-    </section>
-</body>
-
+      </section>
+    </div>
+  </body>
 </html>
