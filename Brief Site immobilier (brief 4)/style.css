@@ -1,5 +1,5 @@
 body {
-  background-color: #d49361;
+  background-color: #1d3557;
 }
 .logo {
   max-width: 100px;
@@ -10,6 +10,7 @@ body {
 }
 
 .h-one {
+  color: white;
   margin-top: 32px;
 }
 .preference {
@@ -17,6 +18,9 @@ body {
 }
 .choice-select {
   padding: 7px;
+}
+label {
+  color: white;
 }
 input {
   border-style: none;
@@ -33,14 +37,12 @@ input {
 .divchild-unique {
   text-align: center;
 }
-.preference {
-  margin-left: 54px;
-  padding-top: 31px;
-}
+
 button {
-  width: 187px;
-  height: 39px;
-  background-color: black;
+  margin-top: 20px;
+  padding: 20px 40px;
+  border: none;
+  background-color: #ff7800;
   color: white;
   font-size: 17px;
 }
@@ -50,26 +52,14 @@ div.preferene {
 .divchild-range {
   margin-top: 40px;
 }
-#volume {
-  border: 1px solid black;
-  width: 58%;
-  margin-left: 50px;
-  margin-top: 33px;
-}
 .divchild-range h1 {
   text-align: center;
 }
 .border {
   border: 2px solid white;
-  height: 84px;
-  margin-left: 57px;
-  margin-right: 64px;
-}
-button {
-  width: 215px;
-  margin-left: 73px;
-  margin-top: 22px;
-  height: 64px;
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 a {
@@ -91,7 +81,9 @@ nav {
 #section1 {
   display: none;
 }
-
+#section2 {
+  text-align: center;
+}
 @media screen and (min-width: 840px) {
   nav {
     display: block;
@@ -112,27 +104,31 @@ nav {
     padding: 0 40px;
     justify-content: space-between;
   }
-  .landing-one {
+  .landing-one,
+  .landing-two {
     font-size: 60px;
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
     margin: 0;
   }
   .landing-two {
-    font-size: 60px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 250;
-    margin: 0;
     color: white;
+  }
+  .landing-one {
+    color: #ff7800;
   }
   .paragraphe-landing {
     color: white;
   }
   #section2 {
-    padding-right: 40px;
-    width: 600px;
+    padding-right: 200px;
   }
   a:hover {
     text-decoration: underline;
+  }
+  /* hada ghaydir select lga3 inputs mnghir li 3endha attribute fih type="checkboc" */
+  input:not([type="checkbox"]),
+  select {
+    width: 100%;
   }
 }
