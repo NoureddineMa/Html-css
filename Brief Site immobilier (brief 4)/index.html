@@ -11,12 +11,12 @@
     <link rel="stylesheet" href="style.css">
     <title>Maher Immobilier</title>
 </head>
-<body>
 
-    <div class="logo">
-        <img src="./media/logo.png" alt="le logo">
-    </div>
+<body>
     <section id="all">
+        <div class="logo">
+            <img src="./media/logo.png" alt="le logo">
+        </div>
         <div class="divchild">
             <h1 class="h-one">Type de propriéte</h1>
             <select name="choix" class="choice-select">
@@ -28,8 +28,8 @@
         </div>
         <div class="divchild">
             <h1 class="h-one">Nombre de chambres</h1>
-            <input  class="choice-select" type="nombre des chambres" placeholder="Veuillez entrer le nombres des chambres"
-                name="Nom" /></label>
+            <input class="choice-select" type="nombre des chambres"
+                placeholder="Veuillez entrer le nombres des chambres" name="Nom" /></label>
         </div>
         <div class="divchild-unique">
             <h1 class="h-one">Prix</h1>
@@ -38,14 +38,17 @@
         </div>
         <div class="divchild-range">
             <h1 class="h-one">Le rayon de recherche</h1>
-            <input id="rayonR" type="range">
-        </div > 
+            </div>
+            <div class="border">
+            <input type="range" id="volume">
+            </div>
+        </div>
         <div class="preference">
-            <input type="checkbox" name="cheese" >
+            <input type="checkbox" name="cheese">
             <label> Affichez les propriétes vendus Dans <br>cette recherche .</label>
         </div>
         <div>
-            <button>Search</button>
+            <button>Rechercher</button>
         </div>
     </section>
 </body>

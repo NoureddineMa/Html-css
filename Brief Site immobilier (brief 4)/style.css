@@ -1,55 +1,42 @@
-*{
+body{
     background-color: #D49361;
 }
 .logo {
-width: 100%;
-text-align: center;
+max-width: 100px;
+margin: 0 auto;
 }
 .logo img {
-    width: 30%;
+    width: 100%;
 }
-#all {
-    justify-content: center;
-}
+
 .h-one {
     margin-top: 32px;
-    display: flex;
-    justify-content: center;
 }
-.preferene {
-    margin-left: 60px;
+.preference {
     padding-top: 31px;
-
 }
 .choice-select {
-    background-color: white;
-    text-align: center;
     padding: 7px;
     
 }
 input {
-    background-color: white;
     border-style: none;
 }
-#cheese {
-    display: flex;
-    justify-content: center;
+.min, .max {
+    max-width: 50px;
+    padding: 10px 20px;
+    
 }
-.min {
-    width: 52px;
-    height: 43px;
-}
+
 .divchild{
     text-align: center
-    
 }
 .divchild-unique {
     text-align: center;
 }
-.preferene {
-    margin-left: 60px;
+.preference {
+    margin-left: 54px;
     padding-top: 31px;
-
 }
 button {
     width: 187px;
@@ -62,5 +49,29 @@ div.preferene {
     text-align: center;
 }
 .divchild-range {
-    border: white 1px solid;
+    margin-top: 40px;
 }
+#volume {
+    border: 1px solid black;
+    width: 58%;
+    margin-left: 50px;
+    margin-top: 33px;
+}
+.divchild-range h1 {
+    text-align: center;
+}
+.border {
+    border: 2px solid white;
+    height: 84px;
+    margin-left: 57px;
+    margin-right: 64px;
+}
+button {
+    width: 215px;
+    margin-left: 73px;
+    margin-top: 22px;
+    height: 64px;
+}
+
+
+
